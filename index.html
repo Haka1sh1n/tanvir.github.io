@@ -1,14 +1,137 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/tanvir.github.io/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tanvir-portfolio</title>
-    <script type="module" crossorigin src="/tanvir.github.io/assets/index-5FC1kQ10.js"></script>
-    <link rel="stylesheet" crossorigin href="/tanvir.github.io/assets/index-VPOPfcvR.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111d">
+<meta name="description" content="Research portfolio of Md. Tanvir Ahmed Tonmoy — neuromorphic computing, SRAM compute-in-memory, emerging memory devices, and VLSI design.">
+<meta property="og:title" content="Md. Tanvir Ahmed Tonmoy | VLSI & Neuromorphic Computing">
+<meta property="og:description" content="Circuit-level research at the intersection of intelligent computing and emerging memory.">
+<meta property="og:type" content="website">
+<title>Md. Tanvir Ahmed Tonmoy | Research & Engineering</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2307111d'/%3E%3Cpath d='M10 18h44v7H36v26h-8V25H10z' fill='%23b7f27a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./site.css"><script defer src="./site.js"></script>
+</head>
+<body>
+<div class="progress" id="readingProgress" aria-hidden="true"></div>
+<header class="site-nav"><nav class="nav-inner container" aria-label="Main navigation">
+<a class="wordmark" href="#home" aria-label="Tanvir Tonmoy, home"><b>TT.</b><span>Tanvir Tonmoy<span style="color:var(--accent)">.</span></span></a>
+<div class="nav-links" id="navLinks">
+<a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+</div><div class="nav-actions"><button class="icon-button" id="themeToggle" aria-label="Switch theme" title="Switch theme">☀</button><a class="nav-contact" href="mailto:tanvir.ahmed.tonmoy@g.bracu.ac.bd">Let's connect ↗</a><button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation" aria-controls="navLinks" aria-expanded="false">☰</button></div>
+</nav></header>
+<main>
+<section class="hero" id="home"><div class="container hero-inner">
+<div class="hero-copy">
+<div class="availability">RESEARCH ASSISTANT · BRAC UNIVERSITY</div>
+<p class="eyebrow">Electrical &amp; Electronic Engineering</p>
+<h1>Building the next <em>memory</em> of computing.</h1>
+<h2>Md. Tanvir Ahmed Tonmoy <span style="color:var(--teal)">/</span> VLSI &amp; Neuromorphic Hardware Researcher</h2>
+<p class="hero-desc">I work at the intersection of circuits, memory, and intelligent systems—exploring compute-in-memory, spike-based computation, and emerging devices to make hardware more energy-aware, adaptive, and efficient.</p>
+<div class="button-row"><a class="btn btn-primary" href="#research">Explore my research <span class="arrow">↗</span></a><a class="btn btn-secondary" href="#publications">Publications ↗</a><a class="btn btn-secondary" href="./cv.html">View CV ↗</a></div>
+</div>
+<div class="hero-visual" role="img" aria-label="Original stylized illustration of a semiconductor chip and spike-timing waveform">
+<svg class="orbit" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<circle class="ring" cx="250" cy="247" r="217"/><circle class="ring" cx="250" cy="247" r="163"/><circle class="ring" cx="250" cy="247" r="117"/>
+<g transform="translate(250 250) rotate(-28) translate(-250 -250)">
+<g class="pcb"><path d="M20 150h120v45h43M30 310h150v-45h30M300 40v120h-35M475 335H350v-35h-25M425 86v90h-90M95 435v-110h95"/><path d="M120 60v155h66M360 460V318h-40M460 240H335M5 252h160M250 5v145M250 495V345"/></g>
+<rect class="chip" x="172" y="171" width="157" height="157" rx="18"/><rect x="191" y="190" width="120" height="120" rx="6" fill="#102b34" stroke="#3c8582"/>
+<g stroke="#79d2bc" stroke-width="3"><path d="M197 163v-18M223 163v-18M249 163v-18M275 163v-18M301 163v-18M197 337v19M223 337v19M249 337v19M275 337v19M301 337v19M164 196h-18M164 223h-18M164 250h-18M164 277h-18M164 304h-18M338 196h18M338 223h18M338 250h18M338 277h18M338 304h18"/></g>
+<g stroke="#275b66" stroke-width="1"><path d="M207 208h88M207 225h88M207 242h88M207 259h88M207 276h88M208 209v85M225 209v85M242 209v85M259 209v85M276 209v85M293 209v85"/></g>
+<path class="pulse" d="M204 263h26v-26h12v42h12v-57h13v41h25"/><circle class="glow" cx="262" cy="233" r="4"/>
+<text class="small" x="249" y="198" text-anchor="middle">SRAM · CIM</text><text class="tiny" x="250" y="301" text-anchor="middle">NEUROMORPHIC</text>
+<circle class="glow" cx="20" cy="150" r="4"/><circle class="glow" cx="30" cy="310" r="4"/><circle class="glow" cx="475" cy="335" r="4"/><circle class="glow" cx="425" cy="86" r="4"/><circle class="glow" cx="250" cy="5" r="4"/></g>
+<text class="small" x="44" y="78">7 NM CLASS</text><text class="small" x="340" y="436">TTFS / RRAM</text><circle cx="423" cy="112" r="5" fill="#9c9bff"/><circle cx="78" cy="396" r="4" fill="#b7f27a"/></svg>
+<div class="visual-label">Circuit → architecture → intelligence</div></div></div><div class="hero-ambient"></div></section>
+<div class="stats-wrap"><div class="stats container">
+<div class="stat"><strong>03 <small>accepted</small></strong><span>Conference publications</span></div>
+<div class="stat"><strong>03 <small>active</small></strong><span>Core research directions</span></div>
+<div class="stat"><strong>7 nm <small>class</small></strong><span>Advanced-node circuit studies</span></div>
+<div class="stat"><strong>2026</strong><span>B.Sc. in EEE · BRAC University</span></div>
+</div></div>
+<section class="section" id="about"><div class="container"><div class="section-head reveal"><div><p class="section-label">01 / About</p><h2>Curiosity, down to<br>the transistor.</h2></div><p>From hardware behavior to system-level intelligence.</p></div><div class="rule"></div>
+<div class="intro-grid reveal"><p class="intro-big">I am an Electrical and Electronic Engineering graduate of <mark>BRAC University</mark> and a research assistant studying how <mark>memory and computation</mark> can work together more effectively.</p><p class="intro-side">My work spans transistor-level modeling, SRAM-based architectures, emerging nonvolatile memory, and hardware-aware neural computing. I enjoy connecting measurements from circuit simulation to broader questions of energy, robustness, and inference quality. My B.Sc. specialization is Electronics (CGPA: 3.72/4.00, Summer 2026).</p></div>
+<div class="focus-grid reveal">
+<div class="focus-card"><span class="focus-icon" aria-hidden="true">▦</span><h3>Compute-in-Memory</h3><span>SRAM architectures &amp; Boolean CIM</span></div>
+<div class="focus-card"><span class="focus-icon" aria-hidden="true">⌁</span><h3>Neuromorphic Computing</h3><span>SNN · LIF · time-to-first-spike</span></div>
+<div class="focus-card"><span class="focus-icon" aria-hidden="true">◈</span><h3>Emerging Memory</h3><span>HfO₂ RRAM · nonvolatile state</span></div>
+<div class="focus-card"><span class="focus-icon" aria-hidden="true">⎔</span><h3>VLSI Design</h3><span>Device-to-system co-design</span></div>
+</div></div></section>
+<section class="section research-area" id="research"><div class="container">
+<div class="section-head reveal"><div><p class="section-label">02 / Current research</p><h2>Research in motion<span style="color:var(--accent)">.</span></h2></div><p>Three ongoing investigations into efficient, resilient hardware. Expand a card to see the architecture and objectives.</p></div>
+<div class="research-grid">
+<article class="research-card featured reveal">
+<div class="research-body"><div class="card-top"><span class="kicker">01 / Neuromorphic CIM</span><span class="status">Jul 2026 – Present</span></div><h3>TANDEM <span style="color:var(--accent)">/</span> TEMPO-CIM</h3><p><strong style="color:var(--text)">Background Calibration and Fast Arbitration for PVT-Robust Time-to-First-Spike SRAM Compute-in-Memory.</strong> A 7 nm-class 8T SRAM-CIM architecture exploring how slow, in-situ reference calibration and fast local spike arbitration can preserve relative spike timing across PVT variation.</p>
+<div class="chip-tags"><span>8T SRAM-CIM</span><span>TTFS SNN</span><span>Two-pole LIF</span><span>PVT resilience</span></div>
+<details><summary>Explore the architecture</summary><p>Time-coded inputs feed SRAM-CIM and a tunable two-pole soma. A separate reference path provides background synapse–neuron operating-point adjustment; a pre-threshold risk monitor and provisional winner arbiter identify ambiguous spike races for selective refinement before the winner is committed. TANDEM is the manuscript name for this TEMPO-CIM research direction.</p></details></div>
+<div class="research-art" role="img" aria-label="Conceptual block diagram of time-to-first-spike SRAM-CIM research">
+<svg viewBox="0 0 500 300" aria-hidden="true"><defs><marker id="ta" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#80cdd5"/></marker></defs>
+<rect class="block" x="15" y="72" width="103" height="65" rx="8"/><text class="text" x="66" y="101" text-anchor="middle">TTFS Input</text><text class="muted-text" x="66" y="118" text-anchor="middle">Encoder</text>
+<rect class="block" x="153" y="72" width="105" height="65" rx="8"/><text class="text" x="206" y="100" text-anchor="middle">8T SRAM</text><text class="text" x="206" y="117" text-anchor="middle">CIM</text>
+<rect class="block" x="291" y="72" width="91" height="65" rx="8"/><text class="text" x="336" y="101" text-anchor="middle">Two-pole</text><text class="text" x="336" y="118" text-anchor="middle">LIF Soma</text>
+<rect class="block" x="408" y="72" width="82" height="65" rx="8"/><text class="text" x="449" y="101" text-anchor="middle">PTRM</text><text class="text" x="449" y="118" text-anchor="middle">+ PWA</text>
+<path class="wire" d="M118 104h34M258 104h32M382 104h25" marker-end="url(#ta)"/>
+<rect class="block" x="155" y="199" width="220" height="50" rx="8"/><text class="text" x="265" y="219" text-anchor="middle">In-situ Reference Bank</text><text class="muted-text" x="265" y="234" text-anchor="middle">Slow correlated background adjustment</text>
+<path class="highlight" d="M200 199v-62M339 199v-62" stroke-dasharray="5 5"/><path class="highlight" d="M449 137v65h-72" stroke-dasharray="4 5"/>
+<text class="muted-text" x="23" y="38">TIME-ENCODED SPIKES</text><path class="highlight" d="M23 56h20v-14h6v14h30v-24h6v24h29"/>
+<circle class="dot" cx="265" cy="224" r="3"/><text class="muted-text" x="344" y="275">CONCEPTUAL ARCHITECTURE</text>
+</svg><span class="art-note">Original schematic illustration · not a fabricated-chip image</span></div></article>
+<article class="research-card reveal">
+<div class="research-art purple" role="img" aria-label="Conceptual illustration of parity-assisted coarse-to-fine SRAM-CAM search"><svg viewBox="0 0 480 250" aria-hidden="true">
+<text class="muted-text" x="19" y="31">64-BIT SEARCH BANK · 16 × 4-BIT SLICES</text>
+<g fill="#223755" stroke="#797bd8" stroke-width="1.2"><rect x="18" y="50" width="91" height="55" rx="5"/><rect x="124" y="50" width="91" height="55" rx="5"/><rect x="230" y="50" width="91" height="55" rx="5"/><rect x="336" y="50" width="91" height="55" rx="5"/></g>
+<g class="text" text-anchor="middle"><text x="63" y="82">Slice 0</text><text x="169" y="82">Slice 1</text><text x="275" y="82">Slice 2</text><text x="381" y="82">Slice 15</text></g>
+<path class="wire" d="M63 105v38h164M169 105v38M275 105v38h-48M381 105v38H227"/>
+<rect class="block" x="171" y="143" width="111" height="42" rx="7"/><text class="text" x="226" y="161" text-anchor="middle">Coarse ML</text><text class="muted-text" x="226" y="175" text-anchor="middle">Observation</text>
+<path class="highlight" d="M227 185v18"/><rect class="block" x="129" y="204" width="195" height="36" rx="7"/><text class="text" x="227" y="226" text-anchor="middle">Parity-gated fine sense</text>
+<g class="dot"><circle cx="63" cy="105" r="3"/><circle cx="169" cy="105" r="3"/><circle cx="275" cy="105" r="3"/></g></svg><span class="art-note">Conceptual illustration · not measured waveforms</span></div>
+<div class="research-body"><div class="card-top"><span class="kicker">02 / Associative memory</span><span class="status">Sep 2026 – Present</span></div><h3>PRECIS-CAM</h3><p>Energy-efficient SRAM-CAM similarity search through parity-assisted conditional sensing. Investigating a 64-bit search bank using 4-bit Hamming-distance slices, early matchline observation, and coarse-to-fine candidate evaluation.</p><div class="chip-tags"><span>ASAP7 7 nm</span><span>SRAM-CAM</span><span>Hamming distance</span><span>ngspice</span></div><details><summary>Methods &amp; initial findings</summary><p>Selective fine-stage access can avoid unnecessary detailed evaluation when coarse mismatch information is sufficient. In an initial FF-corner circuit comparison, conditional sensing reduced evaluated sensing energy by approximately 38.6% relative to forced fine sensing. This is a schematic-level result with controller energy excluded; it is not a post-layout or full-system energy claim.</p></details></div></article>
+<article class="research-card reveal">
+<div class="research-art gold" role="img" aria-label="Conceptual layered HfO2 RRAM device with state checkpoint and restore"><svg viewBox="0 0 480 250" aria-hidden="true">
+<text class="muted-text" x="20" y="33">MULTI-LEVEL NONVOLATILE STATE</text><g transform="translate(63 24)"><rect x="30" y="36" width="164" height="32" rx="4" fill="#4b6474" stroke="#b3c8cb"/><text class="text" x="112" y="57" text-anchor="middle">Top electrode</text><rect x="30" y="68" width="164" height="64" rx="2" fill="#826c45" stroke="#edc47f"/><text class="text" x="112" y="102" text-anchor="middle">HfO₂</text><rect x="30" y="132" width="164" height="32" rx="4" fill="#4b6474" stroke="#b3c8cb"/><text class="text" x="112" y="153" text-anchor="middle">Bottom electrode</text><path class="highlight" d="M112 68v20m0 9v21" stroke-dasharray="5 4"/><circle class="dot" cx="112" cy="90" r="5"/></g>
+<path class="wire" d="M280 129h46v-46h30"/><path class="wire" d="M280 129h46v46h30"/><rect class="block" x="354" y="62" width="101" height="40" rx="6"/><rect class="block" x="354" y="154" width="101" height="40" rx="6"/><text class="text" x="405" y="85" text-anchor="middle">Checkpoint</text><text class="text" x="405" y="178" text-anchor="middle">Restore</text><text class="muted-text" x="357" y="224">2 / 4 / 8 / 16 levels</text>
+</svg><span class="art-note">Conceptual device stack · not TCAD results</span></div>
+<div class="research-body"><div class="card-top"><span class="kicker">03 / Emerging memory</span><span class="status">Oct 2026 – Present</span></div><h3>HfO₂ RRAM LIF Checkpointing</h3><p>A normally-off CMOS leaky integrate-and-fire neuron that checkpoints membrane voltage into a multi-level HfO₂ 1T1R RRAM cell before power gating and restores it on wake-up.</p><div class="chip-tags"><span>1T1R RRAM</span><span>Nonvolatile LIF</span><span>Power gating</span><span>Device modeling</span></div><details><summary>Research questions</summary><ul><li>How do 2-, 4-, 8-, and 16-level RRAM states affect restoration error and SNN inference?</li><li>When does energy saved during idle time exceed checkpoint and restoration overhead?</li><li>How can selective checkpointing reduce unnecessary RRAM writes?</li></ul></details></div></article>
+</div>
+<div class="wafer-strip reveal"><div class="wafer-copy"><span class="kicker">Hardware research / context</span><h3>Where device physics meets architecture.</h3><p>From transistor variability and memory-cell behavior to spike timing and inference. Visual reference: a conceptual wafer-scale integrated circuit, not a photograph of my own silicon.</p></div><div class="wafer-media"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Wafer-scale_integrated_circuit.png?width=960" alt="Conceptual rendering of a wafer-scale integrated circuit"><a class="wafer-credit" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Wafer-scale_integrated_circuit.png">Wikideas1 / Wikimedia Commons · CC0</a></div></div>
+</div></section>
+<section class="section" id="publications"><div class="container"><div class="section-head reveal"><div><p class="section-label">03 / Selected works</p><h2>Publications<span style="color:var(--accent)">.</span></h2></div><p>Conference publications and ongoing journal manuscripts. Statuses reflect the latest CV, not independent publication-indexing verification.</p></div><div class="rule"></div>
+<div class="publications-list reveal">
+<article class="pub-item"><div class="pub-year">2026</div><div><h3 class="pub-title">Variation-Aware SRAM Compute-in-Memory Boolean Architecture for Binary Neural Networks</h3><p class="pub-details"><strong>H. H. Jui* and M. T. A. Tonmoy*</strong> et al. · IEEE Computer Society Annual Symposium on VLSI (ISVLSI) · Equal contribution. 45 nm SRAM Boolean CIM with circuit-level variation analysis and hardware-aware BNN evaluation.</p></div><span class="pub-tag">Accepted</span></article>
+<article class="pub-item"><div class="pub-year">2025</div><div><h3 class="pub-title">Soft Robotic Bellow-Controlled Arm Using Multi-DOF Control System</h3><p class="pub-details">F. Uddin, N. Shahrair, M. M. Rahman, <strong>M. T. A. Tonmoy</strong> et al. · 5th Interdisciplinary Conference on Electrics and Computer (INTCEC).</p></div><span class="pub-tag">Accepted</span></article>
+<article class="pub-item"><div class="pub-year">2025</div><div><h3 class="pub-title">BRACU Diganta: An Affordable CanSat Learning Kit for Students in Developing Countries</h3><p class="pub-details">M. M. Chowdhury, M. M. Rahman, M. Mahmud, K. A. Rahim, <strong>M. T. A. Tonmoy</strong> et al. · International Astronautical Congress (IAC/IAF).</p></div><span class="pub-tag">Accepted</span></article>
+</div>
+<div class="pub-divider">Journal manuscripts in preparation</div>
+<div class="publications-list reveal">
+<article class="pub-item"><div class="pub-year">2026</div><div><h3 class="pub-title">TANDEM: Background Calibration and Fast Arbitration for PVT-Robust Time-to-First-Spike SRAM Compute-in-Memory</h3><p class="pub-details">H. H. Jui, M. T. A. Tonmoy et al. · Associated with the TEMPO-CIM research direction.</p></div><span class="pub-tag prep">In preparation</span></article>
+<article class="pub-item"><div class="pub-year">2026</div><div><h3 class="pub-title">PRECIS-CAM: Energy-Efficient SRAM-CAM Similarity Search Through Parity-Assisted Conditional Sensing</h3><p class="pub-details">M. T. A. Tonmoy et al. · Research manuscript under development.</p></div><span class="pub-tag prep">In preparation</span></article>
+</div></div></section>
+<section class="section" id="projects" style="padding-top:50px"><div class="container"><div class="section-head reveal"><div><p class="section-label">04 / Beyond research</p><h2>Selected engineering projects<span style="color:var(--accent)">.</span></h2></div><p>Digital systems, robotics, analog electronics, and space hardware—filter by area.</p></div>
+<div class="filter-bar reveal" aria-label="Project filters"><button type="button" class="filter-button" data-filter="all" aria-pressed="true">All projects</button><button type="button" class="filter-button" data-filter="circuits" aria-pressed="false">Circuits &amp; VLSI</button><button type="button" class="filter-button" data-filter="digital" aria-pressed="false">Digital / FPGA</button><button type="button" class="filter-button" data-filter="systems" aria-pressed="false">Robotics &amp; systems</button><button type="button" class="filter-button" data-filter="space" aria-pressed="false">Aerospace</button><button type="button" class="filter-button" data-filter="ai" aria-pressed="false">Machine learning</button></div>
+<div class="project-grid">
+<article class="project-card reveal" data-category="circuits ai"><div class="project-cover"><span class="project-id">PROJECT / 01</span><span class="project-symbol">6T</span></div><div class="project-body"><span class="project-year">2025–2026 · Research</span><h3>Variation-Aware SRAM Boolean CIM</h3><p>45 nm 6T SRAM in-memory AND, NAND, OR, NOR, XOR, and XNOR. Transistor-level Monte Carlo timing linked to MNIST BNN accuracy.</p><div class="project-tools">CADENCE · PYTHON · PYTORCH</div></div></article>
+<article class="project-card reveal" data-category="systems"><div class="project-cover"><span class="project-id">PROJECT / 02</span><span class="project-symbol">NPK</span></div><div class="project-body"><span class="project-year">2025–2026 · Final year project</span><h3>Autonomous Rover &amp; Precision Fertigation</h3><p>Rover–sprinkler architecture for spatial soil NPK mapping, autonomous navigation, and zone-wise nutrient dispensing.</p><div class="project-tools">SENSORS · CONTROL · WEBOTS / GAZEBO</div></div></article>
+<article class="project-card reveal" data-category="circuits"><div class="project-cover"><span class="project-id">PROJECT / 03</span><span class="project-symbol">PLL</span></div><div class="project-body"><span class="project-year">2026 · Analog IC</span><h3>45 nm CMOS Phase-Locked Loop</h3><p>PFD, charge pump, loop filter, VCO, and divide-by-48 feedback path with transient lock characterization.</p><div class="project-tools">CADENCE VIRTUOSO · MAESTRO</div></div></article>
+<article class="project-card reveal" data-category="digital"><div class="project-cover"><span class="project-id">PROJECT / 04</span><span class="project-symbol">RV</span></div><div class="project-body"><span class="project-year">2026 · Digital design</span><h3>RISC-V Processor in VHDL</h3><p>Modular synthesizable processor architecture and test environment verifying instruction behavior and simulation timing.</p><div class="project-tools">VHDL · FPGA · TESTBENCHES</div></div></article>
+<article class="project-card reveal" data-category="digital circuits"><div class="project-cover"><span class="project-id">PROJECT / 05</span><span class="project-symbol">FSM</span></div><div class="project-body"><span class="project-year">2026 · Compute architecture</span><h3>SRAM-CIM Controller in VHDL</h3><p>Storage, logic operations, and FSM-driven control with compute and memory sequence verification.</p><div class="project-tools">XILINX ISE · VHDL</div></div></article>
+<article class="project-card reveal" data-category="space systems"><div class="project-cover"><span class="project-id">PROJECT / 06</span><span class="project-symbol">SAT</span></div><div class="project-body"><span class="project-year">2024–2026 · Aerospace</span><h3>BRACU Diganta CanSat &amp; Model Satellite</h3><p>Avionics, telemetry, sensor interfaces, beacon, payload electronics, and subsystem integration. CanSat 2025 global finalist.</p><div class="project-tools">EMBEDDED ELECTRONICS · TELEMETRY</div></div></article>
+<article class="project-card reveal" data-category="systems"><div class="project-cover"><span class="project-id">PROJECT / 07</span><span class="project-symbol">ARM</span></div><div class="project-body"><span class="project-year">2024–2025 · Soft robotics</span><h3>Pneumatic Multi-DOF Robotic Arm</h3><p>Rehabilitation-oriented soft robotic arm combining pneumatic bellows, sensing, and coordinated multi-axis motion.</p><div class="project-tools">PNEUMATICS · FEEDBACK CONTROL</div></div></article>
+<article class="project-card reveal" data-category="ai"><div class="project-cover"><span class="project-id">PROJECT / 08</span><span class="project-symbol">CNN</span></div><div class="project-body"><span class="project-year">2026 · Machine learning</span><h3>Floating Waste Recognition</h3><p>CNN-based image classification of algae, chemical, mixed, natural, plastic, and polythene floating waste.</p><div class="project-tools">CNN · DATA AUGMENTATION</div></div></article>
+</div><p class="section-footnote" id="filterCount" aria-live="polite">8 projects shown</p></div></section>
+<section class="section" id="experience"><div class="container"><div class="section-head reveal"><div><p class="section-label">05 / Experience &amp; recognition</p><h2>Path so far<span style="color:var(--accent)">.</span></h2></div><p>Academia, research, teaching, and hands-on hardware leadership.</p></div>
+<div class="journey-grid"><div class="timeline reveal">
+<div class="timeline-item"><span class="timeline-date">OCT 2026 – PRESENT</span><h3>Research Assistant · BRAC University</h3><p>Department of EEE · Supervisor: Dr. Hasan Uz Zaman. Investigating multi-level HfO₂ RRAM and checkpoint-and-recovery techniques for normally-off LIF neuromorphic circuits.</p></div>
+<div class="timeline-item"><span class="timeline-date">SUMMER 2026</span><h3>B.Sc. in Electrical and Electronic Engineering</h3><p>BRAC University · Electronics specialization · CGPA 3.72 / 4.00.</p></div>
+<div class="timeline-item"><span class="timeline-date">JAN 2026</span><h3>Industrial Attachment · Neural Semiconductor Ltd.</h3><p>Industry exposure in digital and physical IC design, analog/RF workflows, and semiconductor fabrication.</p></div>
+<div class="timeline-item"><span class="timeline-date">2024 – 2026</span><h3>Electronics Subsystem Lead · BRACU Diganta</h3><p>Coordinated sensors, avionics, power planning, and telemetry for CanSat and model satellite activities.</p></div>
+<div class="timeline-item"><span class="timeline-date">FEB – MAY 2025</span><h3>Undergraduate Teaching Assistant · BRAC University</h3><p>Supported EEE instruction and student learning.</p></div>
+</div><aside class="honors-box reveal"><p class="section-label">Recognition</p><h3>Awards &amp; honors</h3>
+<div class="honor"><strong>Vice Chancellor's List</strong><span>Academic recognition across five semesters.</span></div>
+<div class="honor"><strong>Dean's List</strong><span>Recognized across one semester.</span></div>
+<div class="honor"><strong>Merit-based tuition scholarship</strong><span>25% for four semesters; 10% for three semesters.</span></div>
+<div class="honor"><strong>CanSat Competition 2025</strong><span>Global finalist · BRACU Diganta, Virginia, USA.</span></div>
+<p class="section-label" style="margin-top:28px">Tools &amp; methods</p>
+<div class="tool-cloud"><span>Cadence Virtuoso</span><span>ngspice</span><span>Verilog / VHDL</span><span>Python</span><span>PyTorch</span><span>MATLAB</span><span>FPGA</span><span>Xilinx ISE</span><span>Git</span><span>LaTeX</span><span>TCAD workflows</span><span>Embedded electronics</span></div>
+</aside></div></div></section>
+<section class="contact-section" id="contact"><div class="container"><div class="contact-panel reveal"><div><p class="section-label">06 / Get in touch</p><h2>Let's build something<br><span style="color:var(--accent)">meaningful.</span></h2><p>Interested in research collaborations or graduate research opportunities in VLSI, neuromorphic computing, compute-in-memory, or emerging devices? I'd be happy to connect.</p></div><div class="contact-actions"><a class="btn btn-primary" href="mailto:tanvir.ahmed.tonmoy@g.bracu.ac.bd">Email me <span class="arrow">↗</span></a><button class="btn btn-secondary" id="copyEmail" type="button">Copy email address</button><a class="btn btn-secondary" href="./cv.html">View / print CV <span class="arrow">↗</span></a></div></div>
+<footer class="footer"><span>© <span id="year">2026</span> Md. Tanvir Ahmed Tonmoy · Designed for research and curiosity.</span><div class="footer-links"><a href="https://github.com/Haka1sh1n" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/md-tanvir-ahmed-tonmoy-08203b328/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.researchgate.net/profile/Md-Tanvir-Tonmoy-2?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate ↗</a><a href="#home">Back to top ↑</a></div></footer></div></section>
+</main></body></html>
