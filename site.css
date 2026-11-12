@@ -23,3 +23,16 @@
 .hero h1{font-size:clamp(41px,4.8vw,70px);line-height:1.12;letter-spacing:-2.8px}.hero h2{max-width:690px;font-size:clamp(17px,2vw,22px);letter-spacing:-.4px}.profile-visual{min-height:460px;display:flex;align-items:center;justify-content:center}.profile-visual::before{display:none}.profile-visual img{display:block;width:min(100%,365px);height:450px;object-fit:cover;object-position:center top;border-radius:20px;border:1px solid var(--line);box-shadow:0 24px 65px rgba(0,0,0,.34)}.research-photo{min-height:235px;padding:0;background:var(--surface2);overflow:hidden}.research-photo img{display:block;object-fit:cover;width:100%;height:100%;min-height:235px}.research-card.featured .research-photo{min-height:370px;order:2}.research-card.featured .research-photo img{min-height:370px}.image-pending{background:var(--surface2);min-height:230px}.project-cover{background:var(--surface2)}.project-cover::before,.project-cover::after{display:none}.project-cover img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.project-cover .project-id{z-index:2;background:rgba(7,17,29,.76);color:#e9f3f8;padding:4px 9px;border-radius:6px}@media(max-width:760px){.profile-visual{min-height:320px;max-height:none;margin-top:20px}.profile-visual img{width:min(83%,310px);height:360px}.research-card.featured .research-photo{order:0;min-height:230px}.research-card.featured .research-photo img{min-height:230px}}
 
 .actual-research img{object-fit:contain;background:#f6f8f9;padding:8px}.research-card.featured .actual-research img{max-height:370px}.project-cover:has(img){background:#102234}.project-cover:has(img)::before,.project-cover:has(img)::after{display:none}
+
+/* November 2026: schematic-first research figures and simplified focus cards */
+.focus-card{min-height:126px;padding:26px 22px;display:flex;flex-direction:column;justify-content:center}
+.focus-card h3{margin:0 0 3px;font-size:16px}
+.focus-card span{margin-top:5px}
+.circuit-schematic{background:#07111a;min-height:240px}
+.circuit-schematic img{width:100%;height:100%;object-fit:contain;background:#07111a;padding:8px;min-height:240px}
+.research-card.featured .circuit-schematic img{min-height:370px;max-height:400px}
+.rram-visual{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(circle at 48% 46%,rgba(54,205,214,.38),transparent 49%),repeating-linear-gradient(90deg,transparent 0 29px,rgba(94,201,212,.05) 30px 31px),#071b27}
+.rram-visual::before{content:"";position:absolute;inset:20px 30px;border:1px solid rgba(119,228,223,.32);border-radius:14px;pointer-events:none;box-shadow:0 0 38px rgba(85,218,207,.10),inset 0 0 25px rgba(63,168,187,.07);z-index:2}
+.rram-visual::after{content:"";position:absolute;inset:auto 17% 6% 17%;height:2px;background:linear-gradient(90deg,transparent,var(--teal),transparent);filter:blur(1px);opacity:.7;pointer-events:none}
+.rram-visual img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;min-height:235px;filter:saturate(1.45) contrast(1.08);padding:20px 36px;background:transparent}
+@media(max-width:760px){.research-card.featured .circuit-schematic img{min-height:230px;max-height:280px}.focus-card{min-height:105px}}
